@@ -3,6 +3,9 @@ module.exports = {
   env: {
     node: true
   },
+  globals: {
+    'L': true
+  },
   extends: [
     'plugin:vue/essential',
     '@vue/airbnb'
@@ -13,6 +16,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/prefer-default-export': 'off',
     'no-param-reassign': ['error', { props: false }],
+    'no-unused-expressions': ["error", { "allowShortCircuit": true }],
     // maximum line length
     'max-len': [0, {
       code: 80,
