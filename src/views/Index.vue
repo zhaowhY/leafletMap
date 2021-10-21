@@ -22,7 +22,7 @@ export default {
   data: () => ({
     mapObj: [
       {
-        title: 'leaflet-标准图',
+        title: 'OpenStreetMap',
         id: 'Leaflet-Normal',
         map: 'Leaflet.Normal.Map',
         Annotion: '',
