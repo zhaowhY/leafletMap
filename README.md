@@ -1,6 +1,6 @@
 ## leafletMap
 
-### [在线访问链接](https://kongkong99.github.io/leafletMap/#/)
+### [在线访问链接](https://zhaowhy.github.io/leafletMap/#/)
 
 ### 支持底图
 - leaflet - 标准图
